@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dmshrservices</title>
+	<meta  http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+    <style>
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#logo{
+	margin-left: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#container{
+  border: 5px solid red;
+
+}
+
+#foo
+{
+  color: white;
+  background: black;
+  font-size: 18px;
+  margin-left: 11px;
+  margin-top: 11px;
+
+}
+
+h1{color: #FF8C00;
+   margin-left: 11px;   
+     }
+ p{
+ 	color: white;
+    width: 700px;
+    margin-left: 11px;
+ }  
+
+ #bt{
+ 	margin-left: 11px;
+ 	border: 2px solid blue;
+ 	background: black;
+ 	color: white;
+ }  
+
+ footer{
+    background: white;
+    color: black;
+    height: 50px;
+    text-align: center;
+    
+ }
+
+ 
+</style>
+
+
+
+
+</head>
+<body>
+
+    <div id="container">
+      <div id="logo">
+        <a href="home.html" ><img src="/home/prasad/Documents/website/logo.png" height="70px" width="70px"/>  </a>
+      </div>  
+            <div class="topnav">
+                    
+                    
+                        <a href="home.html">HOME</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="service.html">SERVICES</a>
+                        
+                        
+                        
+
+                        <select id="foo">
+                  
+               <option value="http://www.google.com"> CONTACT (OFFICE)</option>
+               <option value="http://www.google.com"> CONTACT (CORPORATE ENQUIRY FORM)</option>
+               <option value="http://www.yahoo.com">CONTACT (REGISTRATION FORM)</option>
+                        </select>
+
+            
+               <img id="image" src="/home/prasad/Documents/website/banner.jpg" width="100%" height="500px" />
+               <br> <br> <br><br>
+               <h1>DMS SUPPORT & SERVICES </h1>
+               
+               <p> We take this opportunity to introduce ourselves as “DMS Support & Services Pvt Ltd” is incorporated with the objective of providing<b> <em>Complete HR Solutions, Real Estate Services and Financial Services .</em> </b>DMS, which intend to provide holistic solutions to the different verticals throughout PAN India with Pay-rolling and Staffing as its forte. DMS intend to provide number of solutions under its operation to various industries at PAN India presence.
+                   </p>
+                   <br>
+                  
+                 <a id="bt" href="about.html">Read More</a>  
+                 <br><br><br><br><br>
+
+                 <footer>
+                 	<h3> @Copyright DMS Support & Services Pvt Ltd. </h3>
+
+                </footer>
+
+           <script>
+                document.getElementById("foo").onchange = function() {
+                  if (this.selectedIndex!==0) {
+                  window.location.href = this.value;
+                    }        
+                        };
+            </script>
+
+
+                        
+	
+             </div>       
+            
+      
+
+    </div>
+
+</body>
+</html>
